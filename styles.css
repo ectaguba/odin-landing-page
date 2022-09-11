@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    --dark-bg: #1F2937;
+    --button: #388F26;
+    --quote: #E5E7EB;
+}
+
+html {
+    box-sizing: border-box;
+}
