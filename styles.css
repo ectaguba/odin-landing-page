@@ -36,7 +36,7 @@ nav {
     gap: 0;
     justify-content: right;
     align-items: center;
-    padding: 0rem 12rem;
+    padding: 0rem 10rem;
 }
 
 nav a {
@@ -60,7 +60,7 @@ nav a:hover {
 
 #header-container {
     background-color: var(--dark-bg);
-    padding: 12rem;
+    padding: 10rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -89,4 +89,47 @@ nav a:hover {
     width: 600px;
     height: 250px;
     object-fit: cover;
+}
+
+#info-container {
+    padding: 0rem 12rem 12rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+}
+
+#info-header {
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 2rem;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+}
+
+.image-container img {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: var(--button);
+    border-width: 4px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.image-container p {
+    margin-top: 0.5rem;
+    text-align: center;
 }
