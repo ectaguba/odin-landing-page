@@ -14,9 +14,6 @@ html {
     box-sizing: border-box;
 }
 
-div {
-    border-style: solid;
-}
 
 button {
     padding: 0.3rem 1rem;
@@ -157,4 +154,32 @@ nav a:hover {
     font-size: 24px;
     font-weight: bold;
     text-align: right;
+}
+
+/* CALL TO ACTION */
+
+#COA-container {
+    color: white;
+    border-radius: 10px;
+    background-color: var(--button);
+    margin: 6rem 12rem;
+    padding: 3rem 6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#COA-right button {
+    font-family: 'Roboto Mono';
+    font-weight: 900;
+    padding: 0.5rem 2rem;
+}
+
+footer {
+    color: white;
+    background-color: var(--dark-bg);
+    padding: 3rem 1rem;
+    font-size: 18px;
+    text-align: center;
 }
