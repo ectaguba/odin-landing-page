@@ -14,6 +14,20 @@ div {
     border-style: solid;
 }
 
+button {
+    padding: 0.3rem 1rem;
+    background-color: var(--button);
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    transition: 0.25s;
+}
+
+button:hover {
+    color: black;
+    background-color: var(--text);
+}
+
 nav {
     background-color: var(--dark-bg);
     display: flex;
@@ -22,7 +36,9 @@ nav {
     gap: 0;
     justify-content: right;
     align-items: center;
+    padding: 0rem 12rem;
 }
+
 nav a {
     text-decoration: none;
     color: var(--text);
@@ -38,17 +54,39 @@ nav a:hover {
 .push-left {
     font-size: 24px;
     color: #F9FAF8;
-    padding: 1rem;
     margin-right: auto;
 }
+/* HEADER */
 
+#header-container {
+    background-color: var(--dark-bg);
+    padding: 12rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .hero-main-text {
+    color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
 }
 
 .hero-secondary-text {
     font-size: 18px;
-    color: 
+    color: var(--text);
+    margin: 1rem 0rem;
+}
+
+#header-text {
+    width: 40%;
+}
+
+.header-img {
+    border-radius: 10px;
+    width: 600px;
+    height: 250px;
+    object-fit: cover;
 }
