@@ -2,10 +2,43 @@
     margin: 0;
     padding: 0;
     --dark-bg: #1F2937;
-    --button: #388F26;
+    --button: #3882F6;
     --quote: #E5E7EB;
 }
 
 html {
     box-sizing: border-box;
 }
+
+div {
+    border-style: solid;
+}
+
+nav {
+    background-color: var(--dark-bg);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0;
+    justify-content: right;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    transition: 0.25s;
+}
+
+nav a:hover {
+    background-color: var(--button);
+    color: black;
+}
+
+.push-left {
+    padding: 1rem;
+    margin-right: auto;
+}
+
+
+/* NAVIGATION */
