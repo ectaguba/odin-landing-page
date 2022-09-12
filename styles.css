@@ -3,7 +3,7 @@
     padding: 0;
     --dark-bg: #1F2937;
     --button: #3882F6;
-    --quote: #E5E7EB;
+    --text: #E5E7EB;
 }
 
 html {
@@ -16,17 +16,17 @@ div {
 
 nav {
     background-color: var(--dark-bg);
-    color: white;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 0;
     justify-content: right;
+    align-items: center;
 }
 nav a {
     text-decoration: none;
-    color: white;
-    padding: 1rem;
+    color: var(--text);
+    padding: 24px;
     transition: 0.25s;
 }
 
@@ -36,9 +36,19 @@ nav a:hover {
 }
 
 .push-left {
+    font-size: 24px;
+    color: #F9FAF8;
     padding: 1rem;
     margin-right: auto;
 }
 
 
-/* NAVIGATION */
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: 
+}
